@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1iyw0AsfrZwNgyw9mlf7yF-Z3pRBuEAJT'
-export_file_name = 'ichneumoninae_model0.h5'
+export_file_name = 'ichneumoninae_model0'
 
 classes = ['Ichneumoninae', 'Pimplaine', 'Campopleginae']
 path = Path(__file__).parent
