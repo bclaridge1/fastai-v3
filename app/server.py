@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1iyw0AsfrZwNgyw9mlf7yF-Z3pRBuEAJT'
-export_file_name = 'ichneumoninae_model0'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1I9iRyepipjrcBq4udJDcMX2ofTFuctqh'
+export_file_name = 'model4'
 
-classes = ['Ichneumoninae', 'Pimplaine', 'Campopleginae']
+classes = ['Anomaloninae', 'Campopleginae', 'Ichneumoninae','Ophioninae', 'Pimplaine']
 path = Path(__file__).parent
 
 app = Starlette()
