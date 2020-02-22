@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1iyw0AsfrZwNgyw9mlf7yF-Z3pRBuEAJT'
 export_file_name = 'model7'
 
-classes = ['Campopleginae_fv', 'Ichneumoninae_fv', 'Ophioninae_fv', 'Pimplinae_fv'']
+classes = ['Campopleginae_fv', 'Ichneumoninae_fv', 'Ophioninae_fv', 'Pimplinae_fv']
 path = Path(__file__).parent
 
 app = Starlette()
